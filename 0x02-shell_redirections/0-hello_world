@@ -1,2 +1,2 @@
 #!/bib/bash
-cat hello world
+echo hello world \n
