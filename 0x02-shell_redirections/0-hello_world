@@ -1,2 +1,2 @@
 #!/bib/bash
-fmt hello world
+cat hello world
