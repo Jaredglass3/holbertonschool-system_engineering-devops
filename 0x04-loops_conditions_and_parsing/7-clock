@@ -8,8 +8,9 @@ echo "Hour: $h"
 (( h++ ))
 
 m=1
-while [ "$h" -le 12 ]
+while [ "$m" -le 59 ]
 do
 echo "$m"
 (( m++ ))
+done
 done
