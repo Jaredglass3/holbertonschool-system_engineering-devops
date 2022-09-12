@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#This cript prints "Best School" ten times, "bad luck" on the 4th, and "good luck" on the 8th
+#This script prints "Best School" ten times, "bad luck" on the 4th, and "good luck" on the 8th
 
 i=1
 while [ "$i" -le 10 ]
@@ -11,5 +11,5 @@ echo "good luck"
 else
 echo "Best School"
 fi
-(( i** ))
+(( i++ ))
 done
