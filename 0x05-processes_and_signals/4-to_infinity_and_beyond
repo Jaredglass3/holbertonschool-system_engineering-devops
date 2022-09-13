@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script displays "To infinity and beyond" indefinetly with sleep 2 in between each loop
+#I use ctrl+c to stop the loop
+
+while true
+do
+echo "To infinity and beyond"
+sleep 2
+done
