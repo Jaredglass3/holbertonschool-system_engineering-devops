@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#This script copies 6-stop_me_if_you_can and kills the 7-highlander process instead of the 4-to_infinity_and_beyond one
+
+msg()
+{
+echo "I am invincible!!!"
+}
+trap "msg" SIGTERM
+
+while true
+do
+echo "To infinity and beyond"
+sleep 2
+done
