@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script will display a list of currently running processes in a user-oriented format, including those that do not have a TTY
+
+ps -auxf
